@@ -125,7 +125,7 @@ def characters_view():
     next_button = (
         f'<a href="/characters?i={next_i}" class="btn">→ Next</a>'
         if i + 1 < len(characters)
-        else '<a href="/challenges" class="btn special">🚀 Start Challenges</a>'
+        else '<a href="https://diedromeo.github.io/jj/" class="btn special">🚀 Start Challenges</a>'
     )
 
     return f'''
